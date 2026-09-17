@@ -57,7 +57,7 @@ export default function Home() {
         <div className="glow glow-three" />
 
         <nav className="nav shell">
-          <a href="#" className="brand">
+          <a href="/" className="brand">
             MEDIA <span>770</span>
           </a>
 
@@ -66,7 +66,7 @@ export default function Home() {
             <a href="#showcase">מי אנחנו</a>
           </div>
 
-          <a href="#contact" className="nav-button">
+          <a href="/contact" className="nav-button">
             בואו נדבר
             <ArrowUpLeft size={16} />
           </a>
@@ -92,7 +92,7 @@ export default function Home() {
             </p>
 
             <div className="hero-actions">
-              <a href="#contact" className="main-button">
+              <a href="/contact" className="main-button">
                 מתחילים מכאן
                 <ArrowLeft size={18} />
               </a>
@@ -278,7 +278,7 @@ export default function Home() {
             <h3>בוא נבנה לו משהו אחר.</h3>
           </div>
 
-          <a href="#" className="contact-button">
+          <a href="/contact" className="contact-button">
             מתחילים פרויקט
             <ArrowLeft size={20} />
           </a>
