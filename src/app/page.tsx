@@ -63,6 +63,7 @@ export default function Home() {
 
           <div className="nav-links">
             <a href="#services">שירותים</a>
+            <a href="/projects">העבודות שלנו</a>
             <a href="#showcase">מי אנחנו</a>
           </div>
 
@@ -97,8 +98,9 @@ export default function Home() {
                 <ArrowLeft size={18} />
               </a>
 
-              <a href="#services" className="ghost-button">
-                גלו מה אנחנו עושים
+              <a href="/projects" className="ghost-button">
+                העבודות שלנו
+                <ArrowLeft size={17} />
               </a>
             </div>
           </div>
@@ -132,7 +134,9 @@ export default function Home() {
 
                 <p>כל החזית הדיגיטלית של העסק שלך.</p>
 
-                <div className="fake-button">EXPLORE</div>
+                <a href="/projects" className="fake-button">
+                  EXPLORE
+                </a>
               </div>
             </div>
 
@@ -140,6 +144,7 @@ export default function Home() {
               <div className="floating-icon">
                 <Zap size={18} />
               </div>
+
               <div>
                 <small>EXPERIENCE</small>
                 <strong>Fast & Interactive</strong>
@@ -150,6 +155,7 @@ export default function Home() {
               <div className="floating-icon">
                 <WandSparkles size={18} />
               </div>
+
               <div>
                 <small>DESIGN</small>
                 <strong>Built Different.</strong>
@@ -180,6 +186,7 @@ export default function Home() {
           <div className="section-intro reveal">
             <div>
               <p className="section-tag">WHAT WE DO</p>
+
               <h2>
                 לא בונים עוד אתר.
                 <br />
@@ -200,6 +207,7 @@ export default function Home() {
 
                 <div className="service-top">
                   <span>{number}</span>
+
                   <div className="service-icon">
                     <Icon size={24} />
                   </div>
@@ -238,6 +246,11 @@ export default function Home() {
               כל תנועה, מעבר ופרט באתר הזה הם חלק מהדרך שבה אנחנו חושבים על
               החזית הדיגיטלית של עסק.
             </p>
+
+            <a href="/projects" className="showcase-projects-link">
+              צפו בעבודות שלנו
+              <ArrowLeft size={18} />
+            </a>
           </div>
 
           <div className="showcase-window">
@@ -265,6 +278,11 @@ export default function Home() {
             עכשיו בוא ניתן לו
             <span>נוכחות שאי אפשר לפספס.</span>
           </h2>
+
+          <a href="/projects" className="statement-projects-button">
+            העבודות שלנו
+            <ArrowLeft size={18} />
+          </a>
         </div>
       </section>
 
