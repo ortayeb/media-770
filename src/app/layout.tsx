@@ -42,6 +42,14 @@ export const metadata: Metadata = {
     title: "MEDIA 770 | חוויות דיגיטליות לעסקים",
     description:
       "לא רק אתר. כל החזית הדיגיטלית של העסק שלך — אתרים, קטלוגים, חנויות ומערכות דיגיטליות בהתאמה אישית.",
+    images: [
+      {
+        url: "/media770-share.png",
+        width: 1536,
+        height: 1024,
+        alt: "MEDIA 770 - חוויות דיגיטליות לעסקים",
+      },
+    ],
   },
 
   twitter: {
@@ -49,6 +57,7 @@ export const metadata: Metadata = {
     title: "MEDIA 770 | חוויות דיגיטליות לעסקים",
     description:
       "אנחנו הופכים עסקים לחוויות דיגיטליות.",
+    images: ["/media770-share.png"],
   },
 };
 
